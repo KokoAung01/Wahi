@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1EDA49223207E600EC12DA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1EDA48223207E600EC12DA /* Place.swift */; };
 		BFE0E03E2228C79400A22880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE0E03D2228C79400A22880 /* AppDelegate.swift */; };
 		BFE0E0402228C79400A22880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE0E03F2228C79400A22880 /* ViewController.swift */; };
 		BFE0E0432228C79400A22880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE0E0412228C79400A22880 /* Main.storyboard */; };
 		BFE0E0452228C79900A22880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE0E0442228C79900A22880 /* Assets.xcassets */; };
 		BFE0E0482228C79900A22880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE0E0462228C79900A22880 /* LaunchScreen.storyboard */; };
+		BFE2A9FA2256EF11008894BC /* WaipahuVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE2A9F92256EF11008894BC /* WaipahuVCViewController.swift */; };
+		BFE2A9FC225D81E9008894BC /* KapoleiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE2A9FB225D81E9008894BC /* KapoleiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF1EDA48223207E600EC12DA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		BFE0E03A2228C79400A22880 /* Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE0E03D2228C79400A22880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE0E03F2228C79400A22880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		BFE0E0442228C79900A22880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE0E0472228C79900A22880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFE0E0492228C79900A22880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE2A9F92256EF11008894BC /* WaipahuVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaipahuVCViewController.swift; sourceTree = "<group>"; };
+		BFE2A9FB225D81E9008894BC /* KapoleiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapoleiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				BFE0E03D2228C79400A22880 /* AppDelegate.swift */,
+				BF1EDA48223207E600EC12DA /* Place.swift */,
 				BFE0E03F2228C79400A22880 /* ViewController.swift */,
+				BFE2A9F92256EF11008894BC /* WaipahuVCViewController.swift */,
+				BFE2A9FB225D81E9008894BC /* KapoleiViewController.swift */,
 				BFE0E0412228C79400A22880 /* Main.storyboard */,
 				BFE0E0442228C79900A22880 /* Assets.xcassets */,
 				BFE0E0462228C79900A22880 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1EDA49223207E600EC12DA /* Place.swift in Sources */,
+				BFE2A9FC225D81E9008894BC /* KapoleiViewController.swift in Sources */,
 				BFE0E0402228C79400A22880 /* ViewController.swift in Sources */,
 				BFE0E03E2228C79400A22880 /* AppDelegate.swift in Sources */,
+				BFE2A9FA2256EF11008894BC /* WaipahuVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
